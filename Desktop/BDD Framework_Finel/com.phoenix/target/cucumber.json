@@ -1,0 +1,210 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is on Retail website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 269390200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail Website",
+            "match": {
+              "location": "stepDefinitions.DesktopsPageSteps.user_is_on_retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48363400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Laptop \u0026NoteBook tab",
+            "match": {
+              "location": "stepDefinitions.LaptopAndNoteBooksStpesD.user_click_on_laptop_note_book_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 367522600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all Laptop \u0026NoteBook option",
+            "match": {
+              "location": "stepDefinitions.LaptopAndNoteBooksStpesD.user_click_on_show_all_laptop_note_book_option()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-14T21:02:26.677Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2676244100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Add and Remove a Mac book from Cart",
+        "description": "",
+        "id": "laptop-\u0026-notebooks;add-and-remove-a-mac-book-from-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 4183866900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1069474300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on MacBook  item",
+            "match": {
+              "location": "stepDefinitions.LaptopAndNoteBooksStpesD.user_click_on_mac_book_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 306205800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click add to Cart button",
+            "match": {
+              "location": "stepDefinitions.LaptopAndNoteBooksStpesD.user_click_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160259000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should see a message \u0027Success: You have added MacBook to your shopping cart!\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Success: You have added MacBook to your shopping cart!\u0027",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.LaptopAndNoteBooksStpesD.user_should_see_a_message(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159850100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should see \u00271 item(s) - $602.00\u0027 showed to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u00271 item(s) - $602.00\u0027",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.LaptopAndNoteBooksStpesD.user_should_see_tem_s_showed_to_the_cart(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3079772200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on cart option",
+            "match": {
+              "location": "stepDefinitions.LaptopAndNoteBooksStpesD.user_click_on_cart_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3098759000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on red X button to remove the item from cart",
+            "match": {
+              "location": "stepDefinitions.LaptopAndNoteBooksStpesD.user_click_on_red_x_button_to_remove_the_item_from_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17572800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "item should be removed and cart should show \u00270 item(s) - $0.00\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u00270 item(s) - $0.00\u0027",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.LaptopAndNoteBooksStpesD.item_should_be_removed_and_cart_should_show(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@laptopandNoteBooks"
+          },
+          {
+            "name": "@addandRemove"
+          }
+        ]
+      }
+    ],
+    "name": "Laptop \u0026 NoteBooks",
+    "description": "",
+    "id": "laptop-\u0026-notebooks",
+    "keyword": "Feature",
+    "uri": "classpath:features/LaptopAndNoteBooks.feature",
+    "tags": [
+      {
+        "name": "@laptopandNoteBooks",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
